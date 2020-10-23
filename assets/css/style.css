@@ -341,10 +341,6 @@ footer a {
     justify-content: space-around;
 }
 
-.trainer img {
-    width: 100%;
-}
-
 .trainer-bio {
     padding: 25px;
     line-height: 1.3;
@@ -362,6 +358,23 @@ footer a {
 
 .trainer-bio p {
     font-size: 17px;
+}
+
+.trainer-img {
+    width:100%;
+    min-height: 300px;
+}
+
+.trainer-1 {
+    background-image: url("/assets/images/trainer-1.jpg");
+}
+
+.trainer-2 {
+    background-image: url("/assets/images/trainer-2.jpg")
+}
+
+.trainer-3 {
+    background-image: url("/assets/images/trainer-3.jpg");
 }
 
 .services {
